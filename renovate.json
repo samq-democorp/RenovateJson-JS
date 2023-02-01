@@ -1,0 +1,14 @@
+{ 
+    "extends": [
+      "github>whitesource/merge-confidence:beta",
+      ":dependencyDashboard",
+      ":semanticPrefixFixDepsChoreOthers",
+      ":ignoreModulesAndTests",
+      ":autodetectPinVersions",
+      ":prHourlyLimitNone",
+      ":prConcurrentLimitNone",
+      "group:monorepos",
+      "group:recommended",
+      "workarounds:all"
+      ]
+}
