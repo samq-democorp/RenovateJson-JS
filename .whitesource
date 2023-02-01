@@ -1,0 +1,6 @@
+{
+  "settingsInheritedFrom": "samq-democorp/whitesource-config@main",
+    "remediateSettings": {
+    "enableRenovate": true
+    }
+}
